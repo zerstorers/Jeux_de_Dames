@@ -20,9 +20,13 @@ for (let i = 0; i < 10; i++) {
             var pion = document.createElement("div")
             td.appendChild(pion)
             pion.className = "div1"
-            if (i == i[5]){
+            if (i < 4){
                 pion.style.backgroundColor = ("red")
             }
+            if (i > 5 ){
+                pion.style.backgroundColor = ("brown")
+            }
+            
         }
 
     }
